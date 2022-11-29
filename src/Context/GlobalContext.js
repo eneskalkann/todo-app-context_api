@@ -12,7 +12,7 @@ const GlobalProvider = ({children}) => {
     }
 
     const deleteTodo = (Index) => {
-        const deletedTodos = todo.filter((_,index) => index !== Index);
+        const deletedTodos = todo.filter((i,index) => index !== Index);
         setTodo(deletedTodos)
     }
 
