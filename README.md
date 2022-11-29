@@ -17,7 +17,7 @@ In this projects i use Context API,Tailwind CSS for basic styling and also added
  ```
  ##### Start Project
  ```
- npm run dev
+ npm start
  ```
 
  ## Design
