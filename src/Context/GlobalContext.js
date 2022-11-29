@@ -7,8 +7,19 @@ const defaultTodo = ["Learn new things for web or mobile"]
 const GlobalProvider = ({children}) => {
     const  [todo,setTodo] = useState(defaultTodo);
 
+    const addTodo = (newItems) => {
+        setTodo([...todo,newItems])
+    }
+
+    const deleteTodo = (Index) => {
+        const deletedTodos = todo.filter((_,index) => index !== Index);
+        setTodo(deletedTodos)
+    }
+
     const Values = {
         todo,
+        addTodo,
+        deleteTodo
     };
 
     return(
