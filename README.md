@@ -5,7 +5,6 @@ In this projects i use Context API,Tailwind CSS for basic styling and also added
 # Live Demo is [Here](https://todo-app-context-api.vercel.app/)
 
 #### Tools 
- * React
  * TailwindCSS
  * Context API
  * React Hooks
