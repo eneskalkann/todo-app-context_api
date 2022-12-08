@@ -21,8 +21,7 @@ function TodoList() {
 
   return (
     <form onClick={handleSubmit} className='whitespace-nowrap'>
-        <h2 className='text-metalicSunburst text-lg my-2'>You have <span className='text-maizeCrayola font-bold'>{todo.length}</span> items </h2>
-        <input type="text" maxLength="40" value={items} onChange={(e) => setItems(e.target.value)} className='w-72 md:w-96 h-9 bg-eggshell' />
+        <input placeholder='Add some ToDo' type="text" maxLength="40" value={items} onChange={(e) => setItems(e.target.value)} className='w-72 md:w-96 h-9 bg-eggshell px-2 italic' />
         <button className='text-maizeCrayola ml-3 md:ml-7'><BsFillPlusSquareFill/></button>
     </form>
   )
