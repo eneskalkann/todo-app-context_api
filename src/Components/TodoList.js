@@ -5,7 +5,7 @@ import {BsFillPlusSquareFill} from 'react-icons/bs'
 function TodoList() {
 
     const [items , setItems] = useState("");
-    const {todo,addTodo} = useTodoContext();
+    const {addTodo} = useTodoContext();
 
     const handleSubmit = (e) => {
         e.preventDefault();
